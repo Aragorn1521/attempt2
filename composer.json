@@ -1,0 +1,15 @@
+{
+     "require": {
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4":{
+            "TaskNumber2\\components\\": "src/components",
+            "TaskNumber2\\models\\": "src/models",
+            "TaskNumber2\\ErrorProcessing\\": "src/ErrorProcessing"
+        }
+    },
+     "require-dev": {
+          "squizlabs/php_codesniffer": "^3.6"
+     }
+}
